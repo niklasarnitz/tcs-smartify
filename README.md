@@ -22,7 +22,13 @@ When you have your numeric value, you can then change the `RING_CMD` statement t
 You can now read a boolean on the `MQTT_RING_TOPIC` MQTT topic to determine if the doorbell should ring or not. This can then be used with Software like Home Assistant to send a notification to your phone.
 
 ## Known Bus Commands
-
+| Command | Use                  |
+|---------|----------------------|
+| 4608    | Toggle Light         |
+| 8448    | End Speaking         |
+| 9344    | Unknown              |
+| 8832    | Stopped Ringing?     |
+| 12416   | Turn on Speak light? |
 
 ## Credits
 TCS-Smartify is based on the awesome work of [Syralist](https://github.com/Syralist/tcs-monitor) and [atc1441](https://github.com/atc1441/TCSintercomArduino).
